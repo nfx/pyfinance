@@ -550,7 +550,11 @@ def factor_loadings(
                 "AQR 6-Factor Model",
                 ["MKT", "SMB", "HMLD", "RMW", "CMA", "UMD"],
             ),
-            ("Price-Signal Model", ["MKT", "UMD", "STR", "LTR"])(
+            (
+                "Price-Signal Model",
+                ["MKT", "UMD", "STR", "LTR"]
+            ),
+            (
                 "Fung-Hsieh Trend-Following Model",
                 ["BDLB", "FXLB", "CMLB", "STLB", "SILB"],
             ),
